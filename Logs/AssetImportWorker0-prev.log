@@ -1,0 +1,932 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '2021.1.0a4 (7d39c812e75a) revision 8206792'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16348 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\2021.1.0a4\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/LudumDare49
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+4994
+Successfully changed project path to: D:/Unity/LudumDare49
+D:/Unity/LudumDare49
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0a4 (7d39c812e75a)
+[Subsystems] Discovering subsystems at path D:/Program Files/2021.1.0a4/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/LudumDare49/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Program Files/2021.1.0a4/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2021.1.0a4/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/2021.1.0a4/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/2021.1.0a4/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/2021.1.0a4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005523 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.098 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\LudumDare49\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.6 MB.
+System memory in use after: 242.3 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2808.
+Total: 3.542800 ms (FindLiveObjects: 0.519900 ms CreateObjectMapping: 0.191900 ms MarkObjects: 1.627800 ms  DeleteObjects: 1.201900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ExampleAssets
+  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187432ea6c5acba7a79b3446c776bf31') in 0.022629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027917 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06127df3fb2f69dd90603ce9feb88604') in 0.009640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019156 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd619e89b8990a2f6d3a600e5b91cbd') in 0.011368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024907 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a9779d3a1647673fb1d0519bdc9cad') in 0.015990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034167 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6e456a24caef0c746b9ee8d6f7dc5717.asset.1.index for Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif with Types
+ -> (artifact id: 'c3a60359e8650aa66aeff6c61a3f7afd') in 0.280148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019915 seconds.
+  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/00484ece88f17fc4986bbb5822cc37de.asset.1.index for Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat with Types
+ -> (artifact id: '4fca61c7f35c5d710895d3a86261a174') in 0.084496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027100 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(201c1f77fe872924a86132486bc97e82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif using Guid(201c1f77fe872924a86132486bc97e82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/648e0b2dc0838bc4b972ce2c517dc2bf.asset.1.index for Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: '1daa5a1d97f592ab218f137957140b4d') in 0.023045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025965 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/32828bb5adff47f49b7b4f749a8753f6.asset.1.index for Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif with Types
+ -> (artifact id: '59fab5df75ad156777b224abfac2b78c') in 0.021367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029470 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f32c5db96619bcc448d746c766876065.asset.1.index for Assets/Settings/SampleSceneProfile.asset with Types
+ -> (artifact id: '65b5b1545dc2befbbf9910a5a097780e') in 0.041230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020858 seconds.
+  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/60e1ebe90ce919d4e82a5f8d4ad54fc2.asset.1.index for Assets/ExampleAssets/Models/magneticlevel_low.fbx with Types
+ -> (artifact id: 'aa8f679ee45648bcc1d8398344aa6126') in 0.084369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022677 seconds.
+  path: Assets/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ff4088bd7545484469af15f383f02272.asset.1.index for Assets/ExampleAssets/Models/safetygoggles_low.fbx with Types
+ -> (artifact id: '22bd1ef07379661a5a317d5795cf807d') in 0.017410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031922 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/5f8726c94fccf734eb5795e859f87cc0.asset.1.index for Assets/Scripts/SimpleCameraController.cs with Types
+ -> (artifact id: 'cfd6b7cb1335b9604d549dcef9ca4d1e') in 0.021127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017845 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif
+  artifactKey: Guid(c021d051fa0cba84282b4a2577aa85c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif using Guid(c021d051fa0cba84282b4a2577aa85c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/867a3047543634a4eabd9bdf911c4241.asset.1.index for Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif with Types
+ -> (artifact id: 'f757dbd223958df7ab9c0275c086565c') in 0.015966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039928 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e6e5aff2420697b4e8d36a6101d9e285.asset.1.index for Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat with Types
+ -> (artifact id: 'faf94b3fa034d1d51ecfe57c791748ad') in 0.013227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022271 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6f61f8dd4499250438f1aa39448e860a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif using Guid(6f61f8dd4499250438f1aa39448e860a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/11a45466268c73b4fa32013bb2ae4a50.asset.1.index for Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: '1536b5aabbe8f028797741f396a86cd2') in 0.019211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027985 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+  artifactKey: Guid(40da0395b61db4448b98bab66d6b549c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif using Guid(40da0395b61db4448b98bab66d6b549c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2c0377786a11a8c4391d7a17d42a2e10.asset.1.index for Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif with Types
+ -> (artifact id: 'b364c033e1745eb4c3601068992b7c64') in 0.023724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024613 seconds.
+  path: Assets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/bd41b90a25264584b8cdd13a895962ec.asset.1.index for Assets/Presets/AudioStreaming.preset with Types
+ -> (artifact id: '7c40fdacd74f53b2148ee2fcbf545986') in 0.015410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017664 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ae9e0b5c87d288945a9b9c60bd85e764.asset.1.index for Assets/ExampleAssets/Materials/Plastic_Transparent.mat with Types
+ -> (artifact id: 'ff5d09f87af0cf018e75e0333cce501e') in 0.021791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041625 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f9736b5c74bfe954398051b468f6506a.asset.1.index for Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat with Types
+ -> (artifact id: '00fd87a2e04a1b51ab98fccc39d95eb5') in 0.015383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021874 seconds.
+  path: Assets/Presets/Defaults/AlbedoTexture_Default.preset
+  artifactKey: Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Presets/Defaults/AlbedoTexture_Default.preset using Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e402985ca4f3b25428e331a67df8133e.asset.1.index for Assets/Presets/Defaults/AlbedoTexture_Default.preset with Types
+ -> (artifact id: 'fc5c9b71a961a897a4224036349599c2') in 0.015988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021508 seconds.
+  path: Assets/ExampleAssets/Models/paintbucket_low.fbx
+  artifactKey: Guid(b451a052397f03c4f8a04d915d1c0492) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/paintbucket_low.fbx using Guid(b451a052397f03c4f8a04d915d1c0492) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f64eb2cadc8dc274cb489a2a99ee9997.asset.1.index for Assets/ExampleAssets/Models/paintbucket_low.fbx with Types
+ -> (artifact id: '323104ab736c1b38a11d5f32388b8fc5') in 0.009875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020708 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e457b7e1e02ca094cb171da43ffd877c.asset.1.index for Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif with Types
+ -> (artifact id: '26d9463a0547cb850fa942ed6464a79f') in 0.012660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020592 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7b06e1c39215c7a469e92796702013ad.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+ -> (artifact id: 'eb12e7e7f81b9d375adc40b1dd8ec43e') in 0.013180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018023 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(b516a1fd908e96f4cab7f0f39c2adc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(b516a1fd908e96f4cab7f0f39c2adc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c400b0f74974d136367075348f7b7a') in 0.007987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023504 seconds.
+  path: Assets/ExampleAssets/Models/brush_low.fbx
+  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/809ea57c975747b49a74d84a47520b82.asset.1.index for Assets/ExampleAssets/Models/brush_low.fbx with Types
+ -> (artifact id: 'b41ae7926e7c9072a6a0bc2f6b7868ed') in 0.016970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023426 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
+  artifactKey: Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif using Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/df3d3e881dfd47b4d9509905a6eb8f88.asset.1.index for Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif with Types
+ -> (artifact id: '4a3a72d44e58ddcf3de5c428cbf35087') in 0.017179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021982 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2088ff170a537e74f890c945bf550f04.asset.1.index for Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat with Types
+ -> (artifact id: '3a337c162a13c6daae500578046b3e25') in 0.017870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026911 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif
+  artifactKey: Guid(ac80c335ebd6dde4fa54a82050064545) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif using Guid(ac80c335ebd6dde4fa54a82050064545) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/5d92b4def5c955544a8459749ba9bfe2.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif with Types
+ -> (artifact id: '2ea6b4f74149381a0389bf0420de18d3') in 0.018703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025241 seconds.
+  path: Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab
+  artifactKey: Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab using Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/34e578e534757d347b48b45d01eb9692.asset.1.index for Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab with Types
+ -> (artifact id: '9ceb8048a0d03e6810c493da7c7ec808') in 0.016654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019365 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(22638a9216f1ebf4cb43273a00879f51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif using Guid(22638a9216f1ebf4cb43273a00879f51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b85a7a727ef96d747a8fe31081ab54c0.asset.1.index for Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: '0b2faec459a367905efe6af0e8b8f49e') in 0.011797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016868 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
+  artifactKey: Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif using Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/0cd202cb5ae20624aa4df9ea5943233c.asset.1.index for Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif with Types
+ -> (artifact id: '4dc7010be417a331553e52911403b36a') in 0.010591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018258 seconds.
+  path: Assets/ExampleAssets/Prefabs/Workshop Set.prefab
+  artifactKey: Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Prefabs/Workshop Set.prefab using Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a79896e592c1cbb4d9a48573933280be.asset.1.index for Assets/ExampleAssets/Prefabs/Workshop Set.prefab with Types
+ -> (artifact id: '17ed272a2d6db46e9483bded53fccce1') in 0.012684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020469 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/fb973a7c19dcd814db641f423cdf270a.asset.1.index for Assets/ExampleAssets/Models/ConstructionLight_Low.fbx with Types
+ -> (artifact id: '0b1967b8e0a3626bfa9363ae9986d779') in 0.009523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017212 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f7fc3735945f5d843bac422b9f18b8ef.asset.1.index for Assets/ExampleAssets/Materials/OBS_Mat.mat with Types
+ -> (artifact id: '339691a47c991adf6415b48c0d398057') in 0.010524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015824 seconds.
+  path: Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab
+  artifactKey: Guid(c0adcaeba3022437293536832628fdf8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab using Guid(c0adcaeba3022437293536832628fdf8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b95d725025673864a9e1d4661e6cd453.asset.1.index for Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab with Types
+ -> (artifact id: '641b44ea75ad81ea7d0b650b89b4d816') in 0.008650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017143 seconds.
+  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/0ffd78413fb910243861f03e13474ffc.asset.1.index for Assets/ExampleAssets/Models/jigsaw_low.fbx with Types
+ -> (artifact id: 'f48ce26824286b797d8df4d6a9b29e1f') in 0.011123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017382 seconds.
+  path: Assets/ExampleAssets/Prefabs/Workbench.prefab
+  artifactKey: Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Prefabs/Workbench.prefab using Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/46d40ecd18429724380834cc4072131f.asset.1.index for Assets/ExampleAssets/Prefabs/Workbench.prefab with Types
+ -> (artifact id: '66954185c06d3c61a3834ad471d8ab5f') in 0.009623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021973 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1f8bf6be51408ec40ac1165de382f92f.asset.1.index for Assets/TutorialInfo/Scripts/Readme.cs with Types
+ -> (artifact id: 'e73f96c86137db029426f1588f490d9f') in 0.013360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017722 seconds.
+  path: Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
+  artifactKey: Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/PaintLabel_Mat.mat using Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2034b5d0a76b52748bec9582eae927aa.asset.1.index for Assets/ExampleAssets/Materials/PaintLabel_Mat.mat with Types
+ -> (artifact id: '5b665e4ff116a9d857fd9dd7ca06a296') in 0.010621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017289 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif using Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b2db0e92323aa9e4aa4a2c0d3698ff62.asset.1.index for Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: 'd70038c6593b376ac2e3386ae014334e') in 0.017471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020655 seconds.
+  path: Assets/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1dabe9a1d4e2c8342a4f4d59c69bcbb7.asset.1.index for Assets/Materials/Skybox_Mat.mat with Types
+ -> (artifact id: 'eaa2f7d5b04d5473c4d408df06b12b0f') in 0.013750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022637 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
+  artifactKey: Guid(e109905c411b0f84e82eaaf2705ece30) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif using Guid(e109905c411b0f84e82eaaf2705ece30) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/18ddd7cf7eca0db4981ee0f70effb8ad.asset.1.index for Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif with Types
+ -> (artifact id: 'e17347b03c28715121bea15340e8a15c') in 0.011224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022922 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif
+  artifactKey: Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif using Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/aed037621f5e3f6468a02f2b703428ad.asset.1.index for Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif with Types
+ -> (artifact id: '5cf04285d68dc0613767274a4de98a7c') in 0.010155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019065 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif
+  artifactKey: Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif using Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4c65921800e3d2848b0c90311b00dce8.asset.1.index for Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif with Types
+ -> (artifact id: '186c1ea06ee4dd227db03385f01c0251') in 0.011244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019249 seconds.
+  path: Assets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1a7ba142afafea444b5d72f7ec74bc6f.asset.1.index for Assets/Settings/UniversalRP-HighQuality.asset with Types
+ -> (artifact id: 'e30010f2074e19c506803ded4bc5420d') in 0.012438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018513 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/718788ed7d3f0704c9ba835cb73c2c52.asset.1.index for Assets/ExampleAssets/Materials/Plastic_White_Mat.mat with Types
+ -> (artifact id: 'a80ce1cca1fab728e2c3bc50959ecf7c') in 0.012935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017365 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif
+  artifactKey: Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif using Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3c8d35f12526c8643a51d7cd60d2eb4e.asset.1.index for Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif with Types
+ -> (artifact id: '20755f575676ea87dd7de8c0d61fc548') in 0.009812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018396 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4821ba89c7865d64497b7676cad24191.asset.1.index for Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif with Types
+ -> (artifact id: '4f6a2fb31b4554ec71a5ebc26e15859c') in 0.009434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019048 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif
+  artifactKey: Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif using Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/35861b84a2acdbf40b04ab1af14cfb7c.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif with Types
+ -> (artifact id: '2effa780f6b84a22fdb493ad6ef1be09') in 0.014611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017914 seconds.
+  path: Assets/ExampleAssets/Models/hammer_low.fbx
+  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9d635e1db5c6c324c9dabdf83420fa9a.asset.1.index for Assets/ExampleAssets/Models/hammer_low.fbx with Types
+ -> (artifact id: '9e3dd642f4f81d0e377b0c0c12e71fb4') in 0.010428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017013 seconds.
+  path: Assets/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/11be1c73120a39f47bb69455dc846ac1.asset.1.index for Assets/Presets/AudioCompressedInMemory.preset with Types
+ -> (artifact id: '026b5a020dfea0aa16da66da4d5a5ae0') in 0.013592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023519 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/8fc32fbaa84b951489a1f21e35a94d12.asset.1.index for Assets/ExampleAssets/Models/Workbench_Low.fbx with Types
+ -> (artifact id: '2bdd4ce63485a9b659007e0e39d0ad24') in 0.018231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032482 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/67804086de446734892528603d26586a.asset.1.index for Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif with Types
+ -> (artifact id: 'f6a05856f5bf75c696b139a32edcef38') in 0.020216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023781 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif using Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ddd071fb8f14d2448b946152c1474a69.asset.1.index for Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: '0b1c9316569cbf9cc609868d59bce332') in 0.019262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021781 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a5fec4c0e49ed9e4db8946a977a58bbf.asset.1.index for Assets/Scenes/SampleSceneLightingSettings.lighting with Types
+ -> (artifact id: '62471935531411295abcb695dda87dc5') in 0.015530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017965 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/89feee70247484e41a90ae02533bb7a2.asset.1.index for Assets/Settings/UniversalRP-MediumQuality.asset with Types
+ -> (artifact id: '609cb2d9ac8d322d57c5815323d294cc') in 0.009209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015813 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif using Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/60547e361b110a54db1209a10043f3b2.asset.1.index for Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: '3c4838b12bf931107e10775b0eac7b72') in 0.007982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014566 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+  artifactKey: Guid(b3f247b26e080ca468f1daa963c192ee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif using Guid(b3f247b26e080ca468f1daa963c192ee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ec6b2f262c51c3841a37e872809a629a.asset.1.index for Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif with Types
+ -> (artifact id: '697390e12f34ed71a2170e0669f6f47a') in 0.008070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015212 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0fcc5dcd60226b4b3c22c5fc4dd254') in 0.006202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016032 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+  artifactKey: Guid(06969fc081d8cc146af6634f75abe652) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif using Guid(06969fc081d8cc146af6634f75abe652) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2282602c85e9d534b981fe925e75236f.asset.1.index for Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif with Types
+ -> (artifact id: '74c5c8f813045e61bdf425ffba20a9db') in 0.009866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014431 seconds.
+  path: Assets/ExampleAssets/Materials/Liquid_Mat.mat
+  artifactKey: Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Liquid_Mat.mat using Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6b5d2a352dd7d444d82bcf05d8eff800.asset.1.index for Assets/ExampleAssets/Materials/Liquid_Mat.mat with Types
+ -> (artifact id: 'b74004b169e8efcb5ce27fdc182ecbe4') in 0.008779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015057 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9b2bdbb82602bb34b9dfc21fc04f9e56.asset.1.index for Assets/TutorialInfo/Layout.wlt with Types
+ -> (artifact id: '157916d3efe8252774144d30e7b79a23') in 0.009814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014786 seconds.
+  path: Assets/ExampleAssets/Models/Stud.fbx
+  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/72841de237022c9459eff61e400050b4.asset.1.index for Assets/ExampleAssets/Models/Stud.fbx with Types
+ -> (artifact id: '344d34734080a16217bbd0c1bfae3f6e') in 0.010743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017655 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885b6682098a1aa550530791447883cd') in 0.016060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018842 seconds.
+  path: Assets/Presets/UtilityTexture.preset
+  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/706a531c6648de943b923b219ff33d87.asset.1.index for Assets/Presets/UtilityTexture.preset with Types
+ -> (artifact id: 'ffc5840af78caf25f335e8b9f6d4d570') in 0.013404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016768 seconds.
+  path: Assets/Presets/Defaults/AudioDecompressOnLoad.preset
+  artifactKey: Guid(e7689051185d12f4298e1ebb2693a29f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Presets/Defaults/AudioDecompressOnLoad.preset using Guid(e7689051185d12f4298e1ebb2693a29f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/54645d361b3a3864c9b799ddce2f4b79.asset.1.index for Assets/Presets/Defaults/AudioDecompressOnLoad.preset with Types
+ -> (artifact id: '661946ac6e614fc9f11cb5c2798a8819') in 0.009084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015435 seconds.
+  path: Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+  artifactKey: Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Jigsaw_Mat.mat using Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/151ac51193320954c8afb1d45b02c773.asset.1.index for Assets/ExampleAssets/Materials/Jigsaw_Mat.mat with Types
+ -> (artifact id: '820c6a2746aa7b76827b8605b3034eac') in 0.013034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021618 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/0e65dd1e58ae23a43876cbc67315f17b.asset.1.index for Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif with Types
+ -> (artifact id: '56da6832bbb4770b86428442c0d010bd') in 0.010938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015606 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif using Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/fd2c59779c9cbaf4db30d30e157f0280.asset.1.index for Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: '1aa798322900cca0dbd37d43a1fdbcc1') in 0.009247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014786 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
+  artifactKey: Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif using Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d4a355a49be359a4a83b383eb8022232.asset.1.index for Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif with Types
+ -> (artifact id: '6b3625a57f1f13b16004d150a1ed2e82') in 0.008760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014987 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/27d0950ef5e30a944b5038a3d6af73ad.asset.1.index for Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: 'ba26e4a81f1e2dbb7e641ce581f99375') in 0.009314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015994 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+  artifactKey: Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif using Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/13d83e8528c6a4f4b8823502eedd5e76.asset.1.index for Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif with Types
+ -> (artifact id: '0a7b978fb3251ae4832ff7cd9d8fb5d2') in 0.009685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015670 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/64d688deff689304ca465713a6d9e8fe.asset.1.index for Assets/ExampleAssets/Materials/Stud_Mat.mat with Types
+ -> (artifact id: 'e3f1a9d4fed6633047dfd9431f1a6528') in 0.010670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015741 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
+  artifactKey: Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif using Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9c46ff5fc4fccbd47a6f5bab9120eed7.asset.1.index for Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif with Types
+ -> (artifact id: '369ac4e61356e1498df90b2fa421aaf5') in 0.008476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016190 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/058d128f74d3b394db60ce861d317e70.asset.1.index for Assets/Readme.asset with Types
+ -> (artifact id: '298abb2b6b29df28204a7b46bdda7d03') in 0.010793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016480 seconds.
+  path: Assets/ExampleAssets/Prefabs/Props.prefab
+  artifactKey: Guid(85dfab9623c67784fa7894de63cd1604) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Prefabs/Props.prefab using Guid(85dfab9623c67784fa7894de63cd1604) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2b8692e7fc3078249b3973dee4f6d0cf.asset.1.index for Assets/ExampleAssets/Prefabs/Props.prefab with Types
+ -> (artifact id: '73cc187a15cea8bacb1e81be4fe77143') in 0.009506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017632 seconds.
+  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
+  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6c40f19d4d200c144893d0cf21e0ff00.asset.1.index for Assets/ExampleAssets/Materials/DryWall_Mat.mat with Types
+ -> (artifact id: '80c686d0923142f32bfa8da1f9be81b7') in 0.009831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017384 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/893aea1afcee0934b86fba30d8d3a542.asset.1.index for Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat with Types
+ -> (artifact id: '7ff1bf715cdca710dbd10c1d3ad8b602') in 0.009788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015234 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/bfa2aedaeacf3964fae488be7c95dd3e.asset.1.index for Assets/ExampleAssets/Materials/LightBulb_Mat.mat with Types
+ -> (artifact id: '4b0f9ca9e95cd6083ff7abd85673083c') in 0.010176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018738 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif
+  artifactKey: Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif using Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cb3ae1d369bfc5b48892404c3b74b63c.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif with Types
+ -> (artifact id: 'f11c16bdb450e51361f74153c24eb53f') in 0.009798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017693 seconds.
+  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
+  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a2d9a7ba21a5d544f84c0e262f2b2fc5.asset.1.index for Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat with Types
+ -> (artifact id: '722c3f091d3b242589a764dd5aa27075') in 0.009658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022395 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif using Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e5d5356b53f438b42b69884874abf601.asset.1.index for Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: '0cd23961f4ffe8066d46221fecd2c97e') in 0.011123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016140 seconds.
+  path: Assets/ExampleAssets/Models/small_plane.fbx
+  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/c3ce586d9a0146848ae9c621b6115534.asset.1.index for Assets/ExampleAssets/Models/small_plane.fbx with Types
+ -> (artifact id: '5c68d08e93a319e586d950b1a0d04bc4') in 0.009257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015053 seconds.
+  path: Assets/Presets/NormalTexture.preset
+  artifactKey: Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Presets/NormalTexture.preset using Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/5bd292b8791b4eb418c7f0e405e50e4f.asset.1.index for Assets/Presets/NormalTexture.preset with Types
+ -> (artifact id: '52e4e381ffcd54fff2de7a30cf9040c1') in 0.022816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017264 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cc8fabe1f0495cd4bbc89af9021c9e54.asset.1.index for Assets/ExampleAssets/Models/Workshop_Set.fbx with Types
+ -> (artifact id: '5c277395232529d66c805dc53f41ae80') in 0.008466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014312 seconds.
+  path: Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.ShaderGraph
+  artifactKey: Guid(5e5eca56e1993e741b41ac9c687d01a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.ShaderGraph using Guid(5e5eca56e1993e741b41ac9c687d01a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7f22e1353af87304ebd2af6772d51d7b.asset.1.index for Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.ShaderGraph with Types
+ -> (artifact id: 'ee0ed1e342423a29f85d4ee9b4244390') in 0.010328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015354 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d1466550e7d31104985d5fb128eb9677.asset.1.index for Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs with Types
+ -> (artifact id: '9d89c1f79d21b56c19173bb7d60071b2') in 0.007904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016570 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/175bd53397c8fec40bf2830b58721b30.asset.1.index for Assets/Settings/ForwardRenderer.asset with Types
+ -> (artifact id: '68a62e31c5139b2e3cb98aacf7180751') in 0.026568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017593 seconds.
+  path: Assets/ExampleAssets/Materials/Hammer_Mat.mat
+  artifactKey: Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Hammer_Mat.mat using Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/05a122f3edb3da2458a3936a3570d64c.asset.1.index for Assets/ExampleAssets/Materials/Hammer_Mat.mat with Types
+ -> (artifact id: 'eff735dd183b0e53e8b9f985e1a18e0b') in 0.008717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016635 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/761d72b168e65c942b496e3b931320e3.asset.1.index for Assets/Settings/UniversalRP-LowQuality.asset with Types
+ -> (artifact id: '3cd2da160c9565a9241a18b58b8ad148') in 0.011995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015972 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
+  artifactKey: Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif using Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/45cc6759e8d7c7e479aba4b17c8d916f.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif with Types
+ -> (artifact id: 'ab99047d5fb3f9fb5ccf7f094032d21a') in 0.011287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017163 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
+  artifactKey: Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat using Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/428d183f20576694287070cc0694632e.asset.1.index for Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat with Types
+ -> (artifact id: '0d4ae4c4c112be6afc5ddc262693626e') in 0.034389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017392 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1367f7f79bd5dba47b1243cdd54636d6.asset.1.index for Assets/ExampleAssets/Materials/Strap_Mat.mat with Types
+ -> (artifact id: '21a4362449a8c252351871e5cf528e37') in 0.009319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016094 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+  artifactKey: Guid(77583f99dea53b641804bb357092ec83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif using Guid(77583f99dea53b641804bb357092ec83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e9e42346d608e894b9eea3dfaf000864.asset.1.index for Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif with Types
+ -> (artifact id: '6cd6f3ecf3fd89afa9c05670b0df9c79') in 0.012132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016906 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+  artifactKey: Guid(c517a9b1527aec343806327b47ad22df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif using Guid(c517a9b1527aec343806327b47ad22df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ecf9af32b36199748bf861d3c56475f5.asset.1.index for Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif with Types
+ -> (artifact id: '894f60cacd22db5e626f6ddc37764e1e') in 0.011684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016407 seconds.
+  path: Assets/ExampleAssets/Materials/HardHat_Mat.mat
+  artifactKey: Guid(e93789f0a5d66df4a81613935579642b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/HardHat_Mat.mat using Guid(e93789f0a5d66df4a81613935579642b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/240150c265684cf469cbf5a4f2123c7c.asset.1.index for Assets/ExampleAssets/Materials/HardHat_Mat.mat with Types
+ -> (artifact id: 'd5c67e1f30152cac88ce0577c1c1dc8c') in 0.011199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019478 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
+  artifactKey: Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif using Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e952d8006a1ca1b49ac74fe0b10072ba.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif with Types
+ -> (artifact id: 'a9ffa1bab7215b30a6674a59c3325960') in 0.017917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021582 seconds.
+  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
+  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/0aee0200bfa90444e8d961cf72d5e04d.asset.1.index for Assets/ExampleAssets/Materials/Ground_Mat.mat with Types
+ -> (artifact id: 'dad07f6a13147c564e46cd8468bf7ddd') in 0.019304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018323 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
+  artifactKey: Guid(7140a9bc83a12ea49a081dda89216fff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif using Guid(7140a9bc83a12ea49a081dda89216fff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/bb349b632bcdf4942b083add145644a5.asset.1.index for Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif with Types
+ -> (artifact id: '89006217dea2026d98748f4d79bade86') in 0.013353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017961 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+  artifactKey: Guid(59c8de363dc14c54986d0751c2c38342) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif using Guid(59c8de363dc14c54986d0751c2c38342) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3bb54438037518d4597aa0f4ddd0e16e.asset.1.index for Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif with Types
+ -> (artifact id: '4f153f2e8b87efa4a895c2af76de9cf2') in 0.010733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019645 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/38821c1cb5ee7f24d9e3a77520d3ad13.asset.1.index for Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif with Types
+ -> (artifact id: '6930c0d15eee0152d21d462c578749cc') in 0.010625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016637 seconds.
+  path: Assets/ExampleAssets/Prefabs/Paint Supplies.prefab
+  artifactKey: Guid(283e6530a665e4513959d1cd4883682f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Prefabs/Paint Supplies.prefab using Guid(283e6530a665e4513959d1cd4883682f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/210f20fbded37fc469bd0b49ebd47b5c.asset.1.index for Assets/ExampleAssets/Prefabs/Paint Supplies.prefab with Types
+ -> (artifact id: 'adc889e7be4a20d0398bae0709e544dd') in 0.012162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019097 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f337c6f94b9b5fd46de68b2d4486d5ae') in 0.006668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018605 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+  artifactKey: Guid(2148396b133b56f40baa7ea4fd22982a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif using Guid(2148396b133b56f40baa7ea4fd22982a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/decaa4d75ec907c4ab3a2f3e37df7933.asset.1.index for Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif with Types
+ -> (artifact id: '70ba40e75371f954054d40c791aebfdb') in 0.023149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021411 seconds.
+  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ab1c23b7b7b6e7b409e6d118e677bef3.asset.1.index for Assets/ExampleAssets/Models/safetyhat_low.fbx with Types
+ -> (artifact id: 'efc9d007ae015ccffacce078527f5600') in 0.012805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020993 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3e2998043ed30da47a550e8c2172d5db.asset.1.index for Assets/ExampleAssets/Models/Workbench.fbx with Types
+ -> (artifact id: '27d4440444f77024d0a10a69fe9eb333') in 0.015689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020493 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/28c66614542a8b04f9aa824fec674f63.asset.1.index for Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat with Types
+ -> (artifact id: 'd9456b15976eeb7833558ef0f2b7e0ad') in 0.011458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021371 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif
+  artifactKey: Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif using Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d7762c72f71a848499c9d240eb99a4ab.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif with Types
+ -> (artifact id: 'abb6b2ec91fe887710fd88e644069caa') in 0.017241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021593 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1ac88a29668a402409a59d53e8fbb302.asset.1.index for Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat with Types
+ -> (artifact id: '79db91240e53ccf5669a8bcc4a03ceab') in 0.016081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027507 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3e35345d790f389479c7150e5d5e4471.asset.1.index for Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: 'f30b01c749f18cc035605723252c2010') in 0.013907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020318 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(888916a5e87c05948b1a97b3c0d42556) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif using Guid(888916a5e87c05948b1a97b3c0d42556) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d824e4756843f6447939a0644bab0ef7.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif with Types
+ -> (artifact id: 'cf0c15f0f17348f15658ffbb734f80f5') in 0.017235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019304 seconds.
+  path: Assets/TutorialInfo/Icons/UniversalIcon.png
+  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/12a04caf8f671644c87ed67b1b28be8a.asset.1.index for Assets/TutorialInfo/Icons/UniversalIcon.png with Types
+ -> (artifact id: 'ea81a0f283d0d06e8257e2ec47f4bdcb') in 0.016296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020618 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4cf8833a95b056f4897b4136f3e5e422.asset.1.index for Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat with Types
+ -> (artifact id: '6c230e85a4d7939f7653b3db07136eba') in 0.010828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018157 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif
+  artifactKey: Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif using Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f3b404aac20b93d49a8a930e8f1c9e49.asset.1.index for Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif with Types
+ -> (artifact id: '0cb8a745b392cf4faf1f17364fbd2507') in 0.010708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018197 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif
+  artifactKey: Guid(4675081b0baf66345adc734388155502) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif using Guid(4675081b0baf66345adc734388155502) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1ec7a664f2552b04aa012ff34f0aa33b.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif with Types
+ -> (artifact id: 'cecdafe3e2282a44ee559558ee6ee407') in 0.026576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026652 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif
+  artifactKey: Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif using Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/5649722b964c256469a566fb8b56fded.asset.1.index for Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif with Types
+ -> (artifact id: '453e375f481d069e8723ce02edef6f4e') in 0.027720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039560 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/418f12aec85a5b34ca6c8929716faa8f.asset.1.index for Assets/ExampleAssets/Materials/PaintBrush_Mat.mat with Types
+ -> (artifact id: 'd9d7c7a15ac550b04f1697f877cefd96') in 0.019341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021967 seconds.
+  path: Assets/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9ee691051bcb87c4ca4d0c6b2dfcaf3d.asset.1.index for Assets/TutorialInfo/Icons/Help_Icon.png with Types
+ -> (artifact id: '52ef25f7a68c954e811ad5a5711057d9') in 0.013526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022804 seconds.
+  path: Assets/ExampleAssets/Prefabs/Construction Light Low.prefab
+  artifactKey: Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ExampleAssets/Prefabs/Construction Light Low.prefab using Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7109f5ffaec0e1640ab9b47f02f4c441.asset.1.index for Assets/ExampleAssets/Prefabs/Construction Light Low.prefab with Types
+ -> (artifact id: 'eb4ed3536c107c73554f52c5c657ed66') in 0.014577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020499 seconds.
+  path: Assets/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(463065d4f17d1d94d848aa127b94dd43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Presets/Defaults/DirectionalLight_Default.preset using Guid(463065d4f17d1d94d848aa127b94dd43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d776dceff1ec93d4093a6a44a480757b.asset.1.index for Assets/Presets/Defaults/DirectionalLight_Default.preset with Types
+ -> (artifact id: 'c15fddb258caa5b18b92fb69fa161d31') in 0.010862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.799349 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551ced16d7e7c0cf19aa3cdd1d6a6339') in 0.007367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014886 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986c28fc94521b57cc493e846565ca75') in 0.007528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.828888 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2d89a9148b2976043b6d04850f4736c5.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+ -> (artifact id: '0a883f601edd2b798029008199ae8d0b') in 0.006952 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
