@@ -215,9 +215,10 @@ public class GameController : MonoBehaviour
             case GameState.RADIO_FILLER:
                 if(EnterState()){
                     //Play filler radio clip
-                    
-                    EnqueueSound("f"+(fillersPlayed+1).ToString());
-                    fillersPlayed = (fillersPlayed + 1) % 6;
+                    if(currentSetFreq == currentWorkingFreq){
+                        EnqueueSound("f"+(fillersPlayed+1).ToString());
+                        fillersPlayed = (fillersPlayed + 1) % 6;
+                    }
                     
                 }
                 AdvanceAfterSound();
@@ -230,20 +231,22 @@ public class GameController : MonoBehaviour
                     roadHandler.CreateSign(currentWorkingFreq.ToString() + " Fork up ahead");
                 }
                 AdvanceState();
-                if(ExitState()){
+                if(ExitState(10.0f)){
                 }
                 break;
             case GameState.RADIO_DIRECTIONS:
                 if(EnterState()){
                     GenerateNextTurn();
-                    //Play radio clip telling correct path
-                    if(correctPath == PathChoice.LEFT){
-                        EnqueueSound("left"+(leftsPlayed+1).ToString());
-                        leftsPlayed = (leftsPlayed + 1) % 6;
-                    }
-                    if(correctPath == PathChoice.RIGHT){
-                        EnqueueSound("right"+(rightsPlayed+1).ToString());
-                        rightsPlayed = (rightsPlayed + 1) % 6;
+                    if(currentSetFreq == currentWorkingFreq){
+                        //Play radio clip telling correct path
+                        if(correctPath == PathChoice.LEFT){
+                            EnqueueSound("left"+(leftsPlayed+1).ToString());
+                            leftsPlayed = (leftsPlayed + 1) % 6;
+                        }
+                        if(correctPath == PathChoice.RIGHT){
+                            EnqueueSound("right"+(rightsPlayed+1).ToString());
+                            rightsPlayed = (rightsPlayed + 1) % 6;
+                        }
                     }
                 }
                 AdvanceAfterSound();
