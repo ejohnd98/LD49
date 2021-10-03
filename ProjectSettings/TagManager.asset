@@ -6,6 +6,9 @@ TagManager:
   tags:
   - radioDial
   - phone
+  - left
+  - right
+  - car
   layers:
   - Default
   - TransparentFX

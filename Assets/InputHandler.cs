@@ -18,7 +18,7 @@ public class InputHandler : MonoBehaviour
     public GameObject keypadObject;
 
     public int keypadInput = 0;
-    public Text radioText;
+    public Text[] radioText;
 
     // Update is called once per frame
     void Update()
@@ -52,27 +52,22 @@ public class InputHandler : MonoBehaviour
         actualFreq *= 5;
 
         gameController.SetCurrentRadioFreq(actualFreq);
-        if(keypadInput != 0){
-            radioText.text = keypadInput.ToString();
-        }else{
-            radioText.text = actualFreq.ToString();
-        }
 
-        // Check for clicks on objects
-        if(Input.GetMouseButtonDown(0)){
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            
-            if (Physics.Raycast(ray, out hit)){
-                if(hit.transform.gameObject.tag == "radioDial"){
-                    keypadVisible = true;
-                    keypadObject.SetActive(true);
-                }
-                if(hit.transform.gameObject.tag == "phone"){
-                    gameController.OpenPhone(true);
-                }
-            }
+        string radioString = (keypadInput != 0)? keypadInput.ToString() : actualFreq.ToString();
+        foreach(Text txt in radioText){
+            txt.text = radioString;
         }
+    }
+
+    public void ToggleRadio(){
+        Debug.Log("Radio click");
+        keypadVisible = true;
+        keypadObject.SetActive(true);
+    }
+
+    public void TogglePhone(){
+        Debug.Log("phone click");
+        gameController.OpenPhone(true);
     }
 
     public void SendKey(int value){
