@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RoadHandler : MonoBehaviour
 {
-    public GameObject straightPrefab, forkPrefab, signPrefab;
+    public GameObject[] straightPrefabs, forkPrefabs;
+    public GameObject signPrefab;
+    public Text signText;
+    public GameObject forkSign, nonForkSign;
     public Transform player;
 
     RoadSegment leftRoad, rightRoad;
@@ -18,7 +22,7 @@ public class RoadHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
 
-        GameObject newSegment = GameObject.Instantiate(straightPrefab);
+        GameObject newSegment = GameObject.Instantiate(straightPrefabs[0]);
         leftRoad = newSegment.GetComponent<RoadSegment>();
     }
 
@@ -51,42 +55,51 @@ public class RoadHandler : MonoBehaviour
     }
 
     public void ExtendRoad(){
+        int index = Random.Range(0, straightPrefabs.Length);
         if(chosenRoad == PathChoice.LEFT){
-            leftRoad = AddSegmentTo(straightPrefab, leftRoad, 0);
+            leftRoad = AddSegmentTo(straightPrefabs[index], leftRoad, 0);
         }else{
-            rightRoad = AddSegmentTo(straightPrefab, rightRoad, 0);
+            rightRoad = AddSegmentTo(straightPrefabs[index], rightRoad, 0);
         }
         
     }
 
-    public void CreateSign(string txt){
+    public void CreateSign(int freq, bool fork){
         if(chosenRoad == PathChoice.LEFT){
             leftRoad = AddSegmentTo(signPrefab, leftRoad, 0);
-            leftRoad.SetSignText(txt);
         }else{
             rightRoad = AddSegmentTo(signPrefab, rightRoad, 0);
-            rightRoad.SetSignText(txt);
         }
-        
+        string radioString = (freq/100).ToString();
+        radioString += ".";
+        int len = freq.ToString().Length;
+        radioString += freq.ToString()[len-2];
+        radioString += freq.ToString()[len-1];
+        radioString += " FM";
+
+        signText.text = radioString;
+
+        forkSign.SetActive(fork);
+        nonForkSign.SetActive(!fork);
     }
 
     public void CreateFork(){
         RoadSegment forkSegment;
+        int index = Random.Range(0, forkPrefabs.Length);
         //create fork
         if(chosenRoad == PathChoice.LEFT){
-            forkSegment = AddSegmentTo(forkPrefab, leftRoad, 0);
+            forkSegment = AddSegmentTo(forkPrefabs[index], leftRoad, 0);
         }else{
-            forkSegment = AddSegmentTo(forkPrefab, rightRoad, 0);
+            forkSegment = AddSegmentTo(forkPrefabs[index], rightRoad, 0);
         }
-
         // Create two new roads
-        leftRoad = AddSegmentTo(straightPrefab, forkSegment, 0);
-        rightRoad = AddSegmentTo(straightPrefab, forkSegment, 1);
+        leftRoad = AddSegmentTo(straightPrefabs[Random.Range(0, straightPrefabs.Length)], forkSegment, 0);
+        rightRoad = AddSegmentTo(straightPrefabs[Random.Range(0, straightPrefabs.Length)], forkSegment, 1);
 
         //extend out roads long enough
         for(int i = 0; i < 2; i++){
-            leftRoad = AddSegmentTo(straightPrefab, leftRoad, 0);
-            rightRoad = AddSegmentTo(straightPrefab, rightRoad, 0);
+            leftRoad = AddSegmentTo(straightPrefabs[Random.Range(0, straightPrefabs.Length)], leftRoad, 0);
+            rightRoad = AddSegmentTo(straightPrefabs[Random.Range(0, straightPrefabs.Length)], rightRoad, 0);
         }
     }
 
@@ -95,6 +108,7 @@ public class RoadHandler : MonoBehaviour
         GameObject temp = GameObject.Instantiate(newSegment);
         Transform exitTransform = addTo.GetExitTransform(exit);
 
+        temp.transform.SetParent(transform);
         temp.transform.position = exitTransform.position;
         temp.transform.rotation = exitTransform.rotation;
 

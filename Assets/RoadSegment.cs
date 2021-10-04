@@ -15,10 +15,4 @@ public class RoadSegment : MonoBehaviour
     public int NumberOfExits(){
         return exitPoints.Length;
     }
-
-    public void SetSignText(string txt){
-        if(sign != null){
-            sign.text = txt;
-        }
-    }
 }

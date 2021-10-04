@@ -1,0 +1,17 @@
+TODO:
+
+Lose screen
+	set radio frequency to 66666
+	stop car inputs
+	stop car sound
+	play car shutdown sound
+	play audio clip (we lost them)
+	Show menu
+		Replay
+		Exit
+		
+Win screen
+	play audio clip (stand back. they're coming around)
+	fade to white
+	
+radio static

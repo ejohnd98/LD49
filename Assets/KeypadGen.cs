@@ -11,7 +11,7 @@ public class KeypadGen : MonoBehaviour
     void Start()
     {
         buttonPrefab.GetComponentInChildren<Text>().text = "Back";
-        buttonPrefab.GetComponent<KeypadButton>().value = -1;
+        buttonPrefab.GetComponent<KeypadButton>().value = -999;
 
         GameObject newButton = GameObject.Instantiate(buttonPrefab, transform);
         newButton.GetComponentInChildren<Text>().text = 0.ToString();

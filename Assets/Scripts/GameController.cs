@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public enum PathChoice{
     LEFT,
@@ -36,7 +37,20 @@ public class GameController : MonoBehaviour
         NULL_STATE
     }
 
+    public GameObject endMenu;
+
+    public Color darkFog, lightFog;
+
+    public Material daySky, nightSky;
+    public GameObject sun, instructions;
+
     public RoadHandler roadHandler;
+
+    public Image phone;
+    public Sprite[] phoneImages;
+    public int phoneState = 0;
+    public GameObject phoneCrack;
+    public GameObject blackScreen;
 
     //State variables
     public GameState state = GameState.PRE_START;
@@ -47,7 +61,7 @@ public class GameController : MonoBehaviour
     public float stateTime = 0.0f;
 
     //Radio system variables
-    public AudioSource radioPlayer;
+    public AudioSource radioPlayer, lynchPlayer;
     public AudioClip[] audioFiles;
     public AudioClip defaultSound;
     Dictionary<string, AudioClip> audioLibrary;
@@ -61,11 +75,15 @@ public class GameController : MonoBehaviour
     public Text winningNumberText;
     public List<int> winningNumbers;
     public int requiredNumbers = 4;
+    public float numberDelay = 3.0f;
 
     //Health variables
     public Text healthText;
     public float health = 100.0f;
-    public float lossPerFail = 10.0f;
+    float lossPerFail = 20.0f;
+    float lossPerWin = 10.0f;
+
+    public Transform phoneTarget, phoneTarget1, phoneTarget2;
 
     //Misc flags
     bool enteredFirstRadio = false;
@@ -88,6 +106,10 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void ReturnToMenu(){
+
+    }
+
     // Start is called before the first frame update
     void Start() {
         winningNumbers = new List<int>();
@@ -105,6 +127,10 @@ public class GameController : MonoBehaviour
             radioPlayer.Play();
         }
 
+        if(Input.GetKeyDown(KeyCode.I)){
+            instructions.SetActive(!instructions.activeSelf);
+        }
+
         if(Input.GetKeyDown(KeyCode.P)){
             radioPlayer.Stop();
             AdvanceState();
@@ -117,7 +143,15 @@ public class GameController : MonoBehaviour
 
             case GameState.PRE_START:
                 if(EnterState()){
-
+                    phoneState = 0;
+                    phone.sprite = phoneImages[phoneState];
+                    RenderSettings.skybox = daySky;
+                    DynamicGI.UpdateEnvironment();
+                    sun.SetActive(true);
+                    phoneTarget.position = phoneTarget1.position;
+                    phoneTarget.rotation = phoneTarget1.rotation;
+                    RenderSettings.fogColor = lightFog;
+                    
                 }
                 AdvanceState(); //temp
 
@@ -126,17 +160,23 @@ public class GameController : MonoBehaviour
                 break;
             case GameState.INSTRUCTIONS:
                 if(EnterState()){
+                    instructions.SetActive(true);
                     //Display instruction overlay
                 }
-                AdvanceState(); //temp
+                if(Input.GetKeyDown(KeyCode.I)){
+                    AdvanceState(); //temp
+                }
+                
 
-                if(ExitState()){
+                if(ExitState(5)){
+                    
                     //Disable instruction overlay
                 }
                 break;
             case GameState.INTRO_RADIO:
                 if(EnterState()){
                     //Play intro radio
+                    instructions.SetActive(false);
                     EnqueueSound("radio_intro");
                 }
                 AdvanceAfterSound();
@@ -147,16 +187,20 @@ public class GameController : MonoBehaviour
                 if(EnterState()){
                     //Play ringtone
                     radioPlayer.loop = true;
-                    EnqueueSound("phone_ring");
+                    EnqueueSound("ringtone");
+                    phoneState++;
+                    phone.sprite = phoneImages[phoneState];
                 }
                 
                 if(phoneOpen){
                     AdvanceState();
                 }
 
-                if(ExitState(0.0f)){
+                if(ExitState(2.0f)){
                     radioPlayer.Stop();
                     radioPlayer.loop = false;
+                    phoneTarget.position = phoneTarget2.position;
+                    phoneTarget.rotation = phoneTarget2.rotation;
 
                     //bring phone screen up to face
                 }
@@ -164,16 +208,25 @@ public class GameController : MonoBehaviour
             case GameState.PHONE_SCREEN:
                 if(EnterState()){
                     //Play phone call
-                    EnqueueSound("phone_call"); // car crash sounds
+                    EnqueueSound("car_crash"); // car crash sounds
+                    phoneCrack.SetActive(true);
+                    phoneState++;
+                    phone.sprite = phoneImages[phoneState];
                 }
-                AdvanceAfterSound();
-                if(ExitState()){
+                AdvanceState();
+                if(ExitState(0.5f)){
                     //Change lighting
+                    RenderSettings.skybox = nightSky;
+                    RenderSettings.fogColor = darkFog;
+                    sun.SetActive(false);
+                    DynamicGI.UpdateEnvironment();
                 }
                 break;
             case GameState.DARK_SWITCH:
                 if(EnterState()){
                     //Lower phone
+                    phoneTarget.position = phoneTarget1.position;
+                    phoneTarget.rotation = phoneTarget1.rotation;
                     phoneOpen = false;
                 }
                 AdvanceState();
@@ -197,13 +250,13 @@ public class GameController : MonoBehaviour
             case GameState.SHOW_SIGN:
                 if(EnterState()){
                     //Spawn in upcoming sign
-                    roadHandler.CreateSign(currentWorkingFreq.ToString());
+                    roadHandler.CreateSign(currentWorkingFreq, false);
                 }
                 if(currentSetFreq == currentWorkingFreq){ //if radio frequency entered
                     enteredFirstRadio = true;
                     AdvanceState();
                 }
-                if(stateTime > 10.0f){
+                if(stateTime > 20.0f){
                     if(!enteredFirstRadio){
                         overrideState = GameState.SHOW_SIGN;
                     }
@@ -228,10 +281,10 @@ public class GameController : MonoBehaviour
             case GameState.SHOW_SECOND_SIGN:
                 if(EnterState()){
                     //Spawn in second upcoming sign
-                    roadHandler.CreateSign(currentWorkingFreq.ToString() + " Fork up ahead");
+                    roadHandler.CreateSign(currentWorkingFreq, true);
                 }
                 AdvanceState();
-                if(ExitState(10.0f)){
+                if(ExitState(3.0f)){
                 }
                 break;
             case GameState.RADIO_DIRECTIONS:
@@ -251,7 +304,7 @@ public class GameController : MonoBehaviour
                 }
                 AdvanceAfterSound();
                 if(ExitState()){
-                    GenerateNextRadioFreq();
+            
                 }
                 break;
             case GameState.ROAD_FORK:
@@ -282,7 +335,7 @@ public class GameController : MonoBehaviour
                     if(numbersPlayed < 5){
                         GetNextWinningNumber(); //will want to delay to match audio
                         EnqueueSound("number"+(numbersPlayed+1).ToString());
-                        //queue up other sound to play david lynch
+                        StartCoroutine(PlayNumber(winningNumbers[numbersPlayed]));
                         numbersPlayed++;
                     }
                     successes++;
@@ -291,18 +344,22 @@ public class GameController : MonoBehaviour
                 AdvanceAfterSound();
 
                 if(ExitState()){
+                    DealDamage(lossPerWin);
                     overrideState = GameState.SHOW_SIGN;
+                    GenerateNextRadioFreq();
                 }
                 break;
             case GameState.PATH_FAIL:
                 if(EnterState()){
                     //reduce gas
                     DealDamage(lossPerFail);
+                    EnqueueSound("gas_damage");
+                    GenerateNextRadioFreq();
                     //increase radio static
                     //flash warning indicator?
                 }
                 
-                AdvanceState();
+                AdvanceAfterSound();
 
                 if(ExitState()){
                     overrideState = GameState.SHOW_SIGN;
@@ -311,29 +368,35 @@ public class GameController : MonoBehaviour
             case GameState.LOSE_STATE:
                 if(EnterState()){
                     Debug.Log("GAME OVER");  
+                    EnqueueSound("radio_lose");
                 }
                 overrideState = GameState.GAME_END;
-                AdvanceState();
-                if(ExitState(5.0f)){
-
+                AdvanceAfterSound();
+                if(ExitState(1.0f)){
+                    blackScreen.SetActive(true);
                 }
                 break;
             case GameState.WIN_STATE:
                 if(EnterState()){
+                    phoneState++;
+                    phone.sprite = phoneImages[phoneState];
                     Debug.Log("GAME WON");  
+                    EnqueueSound("radio_win");
                 }
                 overrideState = GameState.GAME_END;
-                AdvanceState();
-                if(ExitState(5.0f)){
-
+                AdvanceAfterSound();
+                if(ExitState(1.0f)){
+                    blackScreen.SetActive(true);
                 }
                 break;
             case GameState.GAME_END:
                 if(EnterState()){
-                    Debug.Log("GAME END");  
+                    Debug.Log("GAME END"); 
+                    
                 }
+                AdvanceState();
                 if(ExitState()){
-
+                    SceneManager.LoadScene("Menu");
                 }
                 break;
             default:
@@ -358,13 +421,8 @@ public class GameController : MonoBehaviour
     }
 
     public void GetNextWinningNumber(){
-        int number = (int)Random.Range(0.0f, 9.99f);
+        int number = (int)Random.Range(1.0f, 9.99f);
         winningNumbers.Add(number);
-        string winningString = "Winning Numbers: ";
-        foreach(int i in winningNumbers){
-            winningString += (i.ToString() + " ");
-        }
-        winningNumberText.text = winningString;
 
         if(winningNumbers.Count >= requiredNumbers){
             overrideState = GameState.WIN_STATE;
@@ -375,7 +433,13 @@ public class GameController : MonoBehaviour
 
     public void DealDamage(float damage){
         health = Mathf.Max(0.0f, health - damage);
-        healthText.text = health.ToString();
+        int lines = (int)((health/100.0f) * 10);
+        string txt = "";
+        for(int i = 0; i < lines; i++){
+            txt += "|";
+        }
+
+        healthText.text = txt;
         //degrade quality of things here depending on damage
         
         if(health <= 0.0f){
@@ -411,6 +475,20 @@ public class GameController : MonoBehaviour
             radioPlayer.clip = radioQueue.Dequeue();
             radioPlayer.Play();
         }
+    }
+
+    IEnumerator PlayNumber(int number){
+        yield return new WaitForSeconds(numberDelay);
+        if(audioLibrary.ContainsKey(number.ToString())){
+            lynchPlayer.clip = audioLibrary[number.ToString()];
+            lynchPlayer.Play();
+        }
+        yield return new WaitForSeconds(1.0f);
+        string winningString = "";
+        foreach(int i in winningNumbers){
+            winningString += (i.ToString() + " ");
+        }
+        winningNumberText.text = winningString;
     }
 
     void AdvanceAfterSound(){

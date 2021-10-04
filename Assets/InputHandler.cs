@@ -53,7 +53,29 @@ public class InputHandler : MonoBehaviour
 
         gameController.SetCurrentRadioFreq(actualFreq);
 
-        string radioString = (keypadInput != 0)? keypadInput.ToString() : actualFreq.ToString();
+        string radioString;
+        if(keypadInput!=0){
+            radioString = (keypadInput/100).ToString();
+            radioString += ".";
+            if(keypadInput > 9){
+                int len = keypadInput.ToString().Length;
+                radioString += keypadInput.ToString()[len-2];
+                radioString += keypadInput.ToString()[len-1];
+                radioString += " FM";
+            }else{
+                radioString = "." + " " + keypadInput.ToString() + "\nFM";
+            }
+        }else{
+            radioString = (actualFreq/100).ToString();
+            radioString += ".";
+            int len = actualFreq.ToString().Length;
+            radioString += actualFreq.ToString()[len-2];
+            radioString += actualFreq.ToString()[len-1];
+            radioString += " FM";
+        }
+
+        
+
         foreach(Text txt in radioText){
             txt.text = radioString;
         }
